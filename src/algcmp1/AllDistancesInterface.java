@@ -10,3 +10,7 @@ public interface AllDistancesInterface {
     /* Returns a string of names of vertices which are located on the shortest path from the vertex u to v, separeted with '-'. */
     public String path(int u, int v);
 }
+
+
+
+
