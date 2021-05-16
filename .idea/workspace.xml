@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e252e96-e588-4c78-ac88-d1bdf9c8b8c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algcmp1/FibHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algcmp1/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algcmp1/AllDistances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algcmp1/AllDistances.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

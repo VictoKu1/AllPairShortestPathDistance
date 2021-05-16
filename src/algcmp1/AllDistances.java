@@ -87,4 +87,19 @@ public class AllDistances implements AllDistancesInterface {
     private void jhonson() {
         //*TODO.
     }
+
+    private Graph dijkstra() {
+        //*TODO.
+        return new Graph();
+    }
+
+    private Graph toGraph() {
+        //*TODO.
+        return new Graph();
+    }
+
+    private int[][] toIntMat(Graph graph) {
+        //*TODO.
+        return new int[0][];
+    }
 }
