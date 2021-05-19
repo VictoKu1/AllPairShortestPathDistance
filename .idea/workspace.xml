@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e252e96-e588-4c78-ac88-d1bdf9c8b8c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algcmp1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AllPairShortestPathDistance/algcmp1/AllDistances.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AllPairShortestPathDistance/algcmp1/AllDistances.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AllPairShortestPathDistance/algcmp1/AllDistancesInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AllPairShortestPathDistance/algcmp1/FibHeap$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AllPairShortestPathDistance/algcmp1/FibHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AllPairShortestPathDistance/algcmp1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AllPairShortestPathDistance/algcmp1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algcmp1/AllDistances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algcmp1/AllDistances.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algcmp1/AllDistancesInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algcmp1/AllDistancesInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algcmp1/FibHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algcmp1/FibHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algcmp1/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algcmp1/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algcmp1/AllDistancesInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algcmp1/FibHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algcmp1/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algcmp1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algcmp1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
