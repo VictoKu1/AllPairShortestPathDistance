@@ -25,25 +25,22 @@ public class AllDistances {
         if (distance(u, v) == inf) {
             return "";
         }
-        if (u == v) {
-            return "" + u;
-        }
-        String str = "";
-        if (u < v) {
-            return pathHlp(u - 1, v - 1, str);
-        }
-        return transpose(pathHlp(v - 1, u - 1, str));
+        return pathHlp(u - 1, v - 1);
     }
 
     private String transpose(String pathHlp) {
-        return String.valueOf((new StringBuffer(pathHlp)).reverse());
+       return String.valueOf((new StringBuffer(pathHlp)).reverse());
+
     }
 
-    private String pathHlp(int u, int v, String str) {
+    private String pathHlp(int u, int v) {
         if (u == v) {
-            return str + "" + (u + 1);
+            return "" + (u + 1);
         }
-        return pathHlp(directionMatrix[u][v], v, str.concat((u + 1) + "-"));
+        if (u < v) {
+            return "" + (u + 1) + "-" + pathHlp(directionMatrix[u][v], v);
+        }
+        return transpose("" + (v + 1) + "-" + pathHlp(directionMatrix[v][u], u));
     }
 
     private void floydWarshall() {
@@ -70,7 +67,7 @@ public class AllDistances {
                             }
                             if (edges_weights[i][j] != inf && i != j) {
                                 edges_weights[i][j] = 2 * edges_weights[i][j] + vertices_weights[i] + vertices_weights[j];
-                                edges_weights[j][i] = edges_weights[i][j];
+                                //*edges_weights[j][i] = edges_weights[i][j];
                             }
                         } else {
                             if (edges_weights[i][k] + edges_weights[k][j] < edges_weights[i][j]) {
